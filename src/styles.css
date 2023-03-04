@@ -24,6 +24,8 @@ body {
   width: 720px;
   max-width: 100%;
   margin: auto;
+  max-width: 100%;
+  padding: 20px;
 }
 
 .section {
@@ -34,6 +36,8 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  margin: auto;
-  max-width: 100%;
+}
+
+.section:first-child {
+  margin-top: 0;
 }
