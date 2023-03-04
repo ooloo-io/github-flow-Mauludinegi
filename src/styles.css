@@ -34,4 +34,6 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+  margin: auto;
+  max-width: 100%;
 }
